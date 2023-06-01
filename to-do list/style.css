@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+.main-container{
+    position: absolute;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px gray;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted gray;
+    font-size: 20px;
+}
+input::placeholder{
+    color: rgb(197, 187, 187);
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: yellow;
+    border: 1px dotted rgb(162, 159, 159);
+    border-right: 0px;
+    border-left: 0px;
+    border-top: none;
+    padding: 0px 20px;
+}
+.ops{
+    display: flex;
+    flex-direction: row;
+    width: 12%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.font{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.checkBox{
+    color: green;
+    font-size: 25px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.disable{
+    display: none;
+}
+.trash{
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+.checked{
+    color: gray;
+    text-decoration: line-through;
+}
+.boxChecked{
+    color: gray;
+}
+.checked.trash{
+    color: gray;
+}
